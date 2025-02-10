@@ -6,18 +6,23 @@
 
     @include onTablet {
       @include pageGrid;
+
       row-gap: 48px;
     }
+
     @include onDesktop {
       @include pageGrid;
+
       row-gap: 48px;
     }
   }
 }
+
 .client {
   @include onTablet {
     grid-column: 1/4;
   }
+
   @include onDesktop {
     grid-column: 1/6;
   }
@@ -36,6 +41,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    outline: none;
 
     &::placeholder {
       font-size: 14px;
@@ -61,6 +67,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    outline: none;
     &::placeholder {
       font-size: 14px;
       font-weight: 400;
@@ -86,24 +93,29 @@
     line-height: 27px;
     text-align: center;
     margin-top: 16px;
+    cursor: pointer;
 
     &:hover {
-      box-shadow: 1px 4px 16px 0px #e8e8f066;
+      box-shadow: 1px 4px 16px 0 #e8e8f066;
     }
     &:active {
-      box-shadow: 1px 4px 16px 0px #e8e8f0a3;
+      box-shadow: 1px 4px 16px 0 #e8e8f0a3;
     }
   }
 }
+
 .information {
   display: grid;
   gap: 24px;
+
   @include onTablet {
     grid-column: 4 / 6;
   }
+
   @include onDesktop {
     grid-column: 8 / 11;
   }
+
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
@@ -119,6 +131,7 @@
       text-decoration: none;
       color: #fff;
       padding-top: 8px;
+      @include hover(transform, scale(1.2));
     }
   }
   &__email {
@@ -131,6 +144,7 @@
       text-decoration: none;
       color: #fff;
       padding-top: 8px;
+      @include hover(transform, scale(1.2));
     }
   }
   &__address {
@@ -144,6 +158,7 @@
       color: #fff;
       padding-top: 8px;
       cursor: pointer;
+      @include hover(transform, scale(1.2));
     }
   }
 }

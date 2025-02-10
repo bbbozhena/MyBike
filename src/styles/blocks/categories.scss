@@ -7,6 +7,7 @@
     @include onTablet {
       row-gap: 48px;
     }
+
     @include onDesktop {
       row-gap: 48px;
     }
@@ -16,7 +17,7 @@
 
     &--explore {
       border: none;
-      background-color: #ffffff;
+      background-color: #fff;
       padding: 14px;
       font-size: 16px;
       font-weight: 700;
@@ -24,12 +25,13 @@
       text-align: center;
       border-radius: 40px;
       grid-column: span 2;
+      cursor: pointer;
 
       &:hover {
-        box-shadow: 1px 4px 16px 0px #e8e8f066;
+        box-shadow: 1px 4px 16px 0 #e8e8f066;
       }
       &:active {
-        box-shadow: 1px 4px 16px 0px #e8e8f0a3;
+        box-shadow: 1px 4px 16px 0 #e8e8f0a3;
       }
 
       @include onTablet {
@@ -46,6 +48,7 @@
 .category {
   &__photos {
     @include pageGrid;
+
     margin-bottom: 16px;
   }
   &__link {
@@ -54,6 +57,7 @@
       @include onTablet {
         grid-column: span 4;
       }
+
       @include onDesktop {
         grid-column: span 8;
       }
@@ -61,9 +65,11 @@
     &--square {
       height: 0;
       padding-bottom: 100%;
+
       @include onTablet {
         grid-column: span 2;
       }
+
       @include onDesktop {
         grid-column: span 4;
       }

@@ -22,6 +22,7 @@
     font-weight: 500;
     line-height: 32.2px;
     grid-column: 1 / -1;
+
     @include onTablet {
       grid-column: 4 / 7;
     }
