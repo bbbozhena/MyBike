@@ -1,0 +1,23 @@
+Frequently Asked Questions about MyBike:
+
+What bikes are available on MyBike?
+MyBike offers three bike models: Sporty 4, Ride in town ST, and Agile ride 3.
+
+Which bike is best for comfortable city riding?
+Ride in town ST is best for comfort because it has an open frame and upright riding position.
+
+Which bike is lightweight?
+Agile ride 3 is the lightweight bike designed for agile city riding.
+
+Can I compare bikes on the website?
+Yes, MyBike allows users to compare different bike models and their features.
+
+What smart features do the bikes have?
+The bikes support auto unlock via a mobile app, GPS tracking, integrated lights,
+and hydraulic disc brakes.
+
+What is the battery range?
+The removable battery provides up to 70 km of range and weighs 2.4 kg.
+
+Do the bikes have integrated lights?
+Yes, all bikes have lights integrated into the frame for day and night visibility.

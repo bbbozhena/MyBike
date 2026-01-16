@@ -1,0 +1,13 @@
+MyBike pricing information:
+
+Sporty 4 price:
+2590 USD.
+
+Ride in town ST price:
+2590 USD.
+
+Agile ride 3 price:
+2090 USD.
+
+All prices are shown in US dollars.
+There are no paid subscriptions or additional fees.

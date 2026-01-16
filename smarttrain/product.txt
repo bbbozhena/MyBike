@@ -1,0 +1,16 @@
+Available bikes on MyBike:
+
+Sporty 4:
+Sporty 4 is a sporty and active bicycle with an iconic frame.
+It is designed for performance and dynamic city riding.
+Price: 2590 USD.
+
+Ride in town ST:
+Ride in town ST has an open frame and an upright riding position.
+It is designed for maximum comfort while riding in the city.
+Price: 2590 USD.
+
+Agile ride 3:
+Agile ride 3 is a lightweight and agile bicycle.
+It is designed for fast, smooth, and easy city rides.
+Price: 2090 USD.
